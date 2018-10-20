@@ -1,4 +1,7 @@
 #pragma once
+#ifndef ITEM_H
+#define ITEM_H
+
 
 class Item {
 public:
@@ -7,3 +10,5 @@ public:
 	void returnItemEffect(Item& item);
 
 };
+
+#endif
